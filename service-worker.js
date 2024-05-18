@@ -5,7 +5,14 @@ self.addEventListener('install', function (event) {
         caches.open('Kadian-cache').then(function (cache) {
             return cache.addAll([
                 'index.html',
-                'logo.svg',
+                'img/logo.svg',
+                'img/SurajKadian.png',
+                'icons/apple-touch-icon.png',
+                'icons/favicon.ico',
+                'icons/icon-192-maskable.png',
+                'icons/icon-192.png',
+                'icons/icon-512-maskable.png',
+                'icons/icon-512.png',
                 'manifest.json',
                 'service-worker.js'
             ]);

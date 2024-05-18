@@ -1,0 +1,44 @@
+<!-- splash.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="icons/favicon.ico" sizes="any">
+    <link rel="icons/apple-touch-icon" href="/apple-touch-icon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@SurajKadian</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="description" content="My name is Suraj Kadian and this is my personal website">
+    <meta name="theme-color" content="#fff">
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+        }
+
+        #splash-gif {
+            max-width: 50%;
+            max-height: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="splash-gif" src="splash.gif" alt="Splash Screen">
+    <script>
+        setTimeout(() => {
+            window.location.href = 'index.html';
+        }, 1000);
+    </script>
+</body>
+
+</html>
