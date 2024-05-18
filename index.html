@@ -1,147 +1,38 @@
+<!-- splash.html -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-   <meta charset="utf-8">
-   <link rel="icon" href="icons/favicon.ico" sizes="any">
-    <link rel="icons/apple-touch-icon" href="/apple-touch-icon.png">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>@SurajKadian</title>
-   <link rel="manifest" href="manifest.json">
-   <meta name="description" content="My name is Suraj Kadian and this is my personal website">
-   <meta name="theme-color" content="#000">
-   <meta name="msvalidate.01" content="8BC00526195B4872680B9AAB2BAAB836" />
-   <!-- Google tag (gtag.js) -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z8YMBKEQY6"></script>
-   <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-
-      gtag('config', 'G-Z8YMBKEQY6');
-   </script>
-   <style>
-      @import url('https://fonts.googleapis.com/css2?family=Jaini&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-      body {
-         font-family: 'Montserrat', 'Arial', sans-serif;
-         letter-spacing: 1px;
-         background-color: #000;
-         color: white;
-         margin: 0;
-         padding: 4rem;
-         display: flex;
-         justify-content: center;
-         align-items: left;
-         height: 100vh;
-         flex-direction: column;
-         box-sizing: border-box;
-      }
-      
-      .svg {
-          width: 4rem;
-          height: 4rem;
-          border-radius: 50%;
-          display: block;
-      }
-
-
-      h1 {
-         font-size: 4rem;
-         margin: 0;
-         background: #2980B9;
-         background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
-         background: linear-gradient(to right, #bce2fa, #51bfeb, #0595f5);
-         -webkit-background-clip: text;
-         -webkit-text-fill-color: transparent;
-         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-      }
-
-      p {
-         font-size: 1rem;
-         margin: 10px 0;
-      }
-
-      .button-container {
-         margin-top: 20px;
-      }
-
-      .button {
-         background-color: #1B262C;
-         border: none;
-         border-radius: 50px;
-         color: white;
-         padding: 15px 32px;
-         text-align: center;
-         text-decoration: none;
-         display: inline-block;
-         font-size: 16px;
-         margin: 4px 2px;
-         cursor: pointer;
-      }
-
-      .button:hover {
-         filter: brightness(80%);
-      }
-
-      .button:active {
-         border-radius: 10px;
-         transform: scale(0.96);
-      }
-
-      @media screen and (max-width: 600px) {
-         body {
-            padding: 2rem;
-            align-items: center;
-            text-align: center;
-         }
-
-         h1 {
-            font-size: 3rem;
-         }
-
-         p{
-            font-size: 0.9rem;
-         }
-
-         .svg {
-            margin: auto;
-         }
-
-         .button {
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Screen</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            width: 56vw;
-            margin-bottom: 20px;
-         }
+            background-color: #ffffff;
+        }
 
-      }
-   </style>
+        #splash-gif {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
 </head>
 
 <body>
-
-   <header>
-      <img class="svg" src="img/SurajKadian.png" alt="Logo">
-      <p>Hi, my name is</p>
-      <h1>SURAJ<br>KADIAN</h1>
-      <p>A name you haven't heard of before ;)<br>Welcome to my website</p>
-   </header>
-
-   <div class="button-container">
-      <a href="https://surajkadian.github.io/TypingPractice/" class="button">Typing Website</a>
-      <a href="https://github.com/SurajKadian" class="button">Github Profile...</a>
-   </div>
-
-   <script>if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('js/service-worker.js');
-      });
-    }
-  </script>
-  <script src="service-worker.js"></script>
+    <img id="splash-gif" src="splash.gif" alt="Splash Screen">
+    <script>
+        setTimeout(() => {
+            window.location.href = 'main.html';
+        }, 3000);
+    </script>
 </body>
 
 </html>
