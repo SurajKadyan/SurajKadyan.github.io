@@ -13,6 +13,8 @@ self.addEventListener('install', function (event) {
                 'icons/icon-192.png',
                 'icons/icon-512-maskable.png',
                 'icons/icon-512.png',
+                'splash.gif',
+                'splash.html',
                 'manifest.json',
                 'service-worker.js'
             ]);
