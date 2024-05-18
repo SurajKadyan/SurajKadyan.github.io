@@ -1,5 +1,5 @@
 <svg width="100mm" height="100mm" viewBox="0 0 250 250" xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <circle cx="125" cy="125" r="125" fill="#FFFFFF"/>
   <defs>
     <linearGradient id="d">
       <stop style="stop-color:#ef7351;stop-opacity:1" offset="0"/>
