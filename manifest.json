@@ -1,8 +1,8 @@
 {
     "name": "Suraj Kadian",
     "short_name": "Kadian",
-    "description": "Typing practice app for SSC typing skill tests or any other government exams typing skill test, with similar layout and some added functionalities",
-    "start_url": "https://surajkadian.github.io/main.html",
+    "description": "Mock Typing test app for SSC typing skill tests or any other government exams typing skill test, with similar layout and some added functionalities",
+    "start_url": "https://surajkadian.github.io/",
     "display": "standalone",
     "splash_screen": [
         {
