@@ -2,7 +2,7 @@
 
 self.addEventListener('install', function (event) {
     event.waitUntil(
-        caches.open('Kadian-cache').then(function (cache) {
+        caches.open('Kadyan-cache').then(function (cache) {
             return cache.addAll([
                 'index.html',
                 'img/logo.svg',
@@ -25,7 +25,7 @@ self.addEventListener('install', function (event) {
 self.addEventListener('activate', function (event) {
     console.log('Service worker activated');
 
-    const CACHE_PREFIX = 'Kadian-cache-';
+    const CACHE_PREFIX = 'Kadyan-cache-';
 
     event.waitUntil(
         caches.keys().then(function (cacheNames) {
