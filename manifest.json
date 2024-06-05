@@ -2,7 +2,7 @@
     "name": "Suno.ai",
     "short_name": "Suno",
     "description": "PWA for suno.ai",
-    "start_url": "https://surajkadyan.github.io/",
+    "start_url": "https://suno.com/",
     "display": "standalone",
     "splash_screen": [
         {
