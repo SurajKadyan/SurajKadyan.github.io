@@ -1,8 +1,8 @@
 {
-    "name": "Suraj Kadian",
-    "short_name": "Kadian",
-    "description": "Mock Typing test app for SSC typing skill tests or any other government exams typing skill test, with similar layout and some added functionalities",
-    "start_url": "https://surajkadian.github.io/TypingPractice/",
+    "name": "Suno.ai",
+    "short_name": "Suno",
+    "description": "PWA for suno.ai",
+    "start_url": "https://suno.com/",
     "display": "standalone",
     "splash_screen": [
         {
@@ -11,7 +11,7 @@
             "type": "image/svg+xml"
         }
     ],
-    "background_color": "#ffffff",
+    "background_color": "#000",
     "theme_color": "#000",
     "icons": [
         {
